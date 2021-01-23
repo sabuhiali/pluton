@@ -452,7 +452,7 @@ class Validation {
      * 
      *  @return bool
      */
-    public function isValid() : bool {
+    public function isValid() {
 
         if(count($this->errors) === 0) return true;
     }
